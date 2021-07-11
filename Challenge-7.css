@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 .main {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -11,16 +11,16 @@ body {
 }
 .nav {
   width: 20%;
-  height: 10%;
+  /* height: 10%; */
   background-color: lightgray;
   border: 1px solid lightgray;
   font-size: 30px;
   padding: 10px;
-  flex: 0 0 100%;
+  flex: 0 0 97%;
 }
 .mid {
-  width: 79%;
-  height: 30.3%;
+  width: 77%;
+  height: 60%;
   background-color: burlywood;
   border: 1px solid burlywood;
   font-size: 30px;
@@ -28,5 +28,9 @@ body {
 }
 .head,
 .foot {
+  height: 15%;
   background-color: lime;
+}
+.foot {
+  height: 16%;
 }

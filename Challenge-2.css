@@ -1,0 +1,44 @@
+h1 {
+  color: white;
+  font-size: 49px;
+  text-align: center;
+  border: white solid 2px;
+  background-color: rgb(210, 230, 30);
+  border-radius: 10px;
+}
+div {
+  color: blue;
+  font-size: 25px;
+  border: aliceblue solid 1px;
+  float: left;
+  font-weight: 600;
+  padding: 20px 0px;
+  width: 24.7%;
+  height: 150px;
+  text-align: center;
+  background-color: gray;
+}
+.p2 {
+  background-color: rgba(128, 128, 128, 0.74);
+}
+.p3 {
+  background-color: rgba(128, 128, 128, 0.486);
+}
+.p4 {
+  background-color: rgba(128, 128, 128, 0.247);
+}
+@media all and (min-width: 1201px) {
+  div {
+    width: 24.7%;
+  }
+}
+@media all and (max-width: 1200px) and (min-width: 601px) {
+  div {
+    width: 49%;
+  }
+}
+@media all and (max-width: 600px) {
+  div {
+    width: 99%;
+  }
+}

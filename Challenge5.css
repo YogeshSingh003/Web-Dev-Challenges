@@ -1,0 +1,52 @@
+body {
+  margin: 2px;
+}
+.top,
+.middle,
+.bottom {
+  border: 1px solid white;
+  display: flex;
+}
+.box {
+  background-color: red;
+  color: wheat;
+  border: 1px solid red;
+  border-radius: 10px;
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+  padding: 0px 0px 0px 5px;
+  font-size: 40px;
+}
+.top .box {
+  height: 220px;
+}
+.bx {
+  background-color: wheat;
+  color: red;
+  border: 1px solid red;
+  border-radius: 10px;
+  width: 100%;
+  margin: 2px;
+  padding: 0px 0px 0px 10px;
+  font-size: 40px;
+}
+.t,
+.m,
+.b {
+  border: 1px solid red;
+
+  display: flex;
+}
+footer {
+  font-size: 60px;
+  text-align: center;
+}
+p {
+  background-color: black;
+  border-radius: 10px;
+  border: 1px black solid;
+  color: wheat;
+
+  min-width: 50%;
+}

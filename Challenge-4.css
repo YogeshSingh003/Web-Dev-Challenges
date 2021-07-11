@@ -1,0 +1,32 @@
+div {
+  font-size: 130%;
+}
+h2 {
+  font-size: 300%;
+}
+h1 {
+  margin: 0%;
+  font-size: 400%;
+  border: 1px solid #ff3399;
+  background-color: #ff3399;
+  text-align: center;
+  color: whitesmoke;
+  padding: 200px;
+}
+nav {
+  background-color: #33001a;
+  font-size: 150%;
+  padding: 20px;
+  position: sticky;
+  top: -1px;
+}
+
+a {
+  padding: 40px;
+  margin: 30px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+}

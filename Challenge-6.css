@@ -1,0 +1,50 @@
+.top {
+  border: 1px solid white;
+  height: 1000px;
+  width: 1500px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.box {
+  border: 2px solid lightgray;
+  margin: 55px;
+  background-color: white;
+  width: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.301),
+    0 6px 20px 0 rgba(0, 0, 0, 0.295);
+}
+.box-1 {
+  height: 800px;
+}
+.box-2 {
+  height: 900px;
+}
+.box-3 {
+  height: 700px;
+}
+body {
+  margin: 2px;
+}
+
+img {
+  width: 100%;
+  height: 35%;
+}
+
+h1 {
+  padding: 30px;
+}
+p {
+  font-size: 30px;
+  padding: 0px 30px;
+}
+button {
+  background-color: gray;
+  border: lightgray 1px solid;
+  padding: 20px 100px;
+  margin: 0px 40px;
+  color: white;
+  font-weight: 60;
+  font-size: 20px;
+}

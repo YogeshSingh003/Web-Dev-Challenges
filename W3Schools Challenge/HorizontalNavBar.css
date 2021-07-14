@@ -38,13 +38,7 @@ div a {
   text-align: right;
   padding: 10px 30px;
 }
-/* div a:hover {
+div a:hover {
   background-color: violet;
   padding: 10px 30px;
-} */
-li.box {
-  padding: ;
-}
-.link:hover div a {
-  display: inline-block;
 }

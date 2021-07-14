@@ -1,0 +1,30 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 15%;
+  height: 100%;
+  margin: 0;
+  background-color: cyan;
+  position: fixed;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 16px 16px;
+}
+li {
+  width: 100%;
+  background-color: cyan;
+}
+a:hover {
+  background-color: darkblue;
+  color: cornsilk;
+}
+div {
+  margin-left: 16%;
+  height: 400%;
+}
+body {
+  margin: 0;
+}

@@ -2,6 +2,7 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  overflow: hidden;
   background-color: darkslategray;
 }
 a {
@@ -31,12 +32,19 @@ h2 {
   text-align: center;
 }
 div a {
-  /* display: none; */
+  display: none;
   /* background-color: whitesmoke; */
   color: black;
+  text-align: right;
   padding: 10px 30px;
 }
 /* div a:hover {
   background-color: violet;
   padding: 10px 30px;
 } */
+li.box {
+  padding: ;
+}
+.link:hover div a {
+  display: inline-block;
+}

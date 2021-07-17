@@ -5,23 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dropdown Nav Bar</title>
     <style>
+      body {
+        margin: 0;
+      }
       li {
         list-style-type: none;
+        display: inline;
       }
       ul {
-        padding: 0;
+        padding: 15px 0px;
         margin: 0;
+        background-color: black;
       }
       a {
         text-decoration: none;
-        color: black;
+        color: white;
+        padding: 15px 50px;
+      }
+      a:hover {
+        background-color: violet;
+      }
+      .dropdown-content a {
+        display: block;
+        color: rgb(29, 0, 134);
+        background-color: tomato;
+        /* margin-top: 15px; */
+      }
+      .dropdown {
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        padding-top: 15px;
+        position: absolute;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
       }
     </style>
   </head>
   <body>
     <ul>
       <li><a href="#home">Home</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li class="dropdown">
+        <a href="#contact">Contact</a>
+        <div class="dropdown-content">
+          <a href="">Link 1</a><a href="">Link 2</a><a href="">Link3</a>
+        </div>
+      </li>
       <li><a href="#About">About</a></li>
       <li><a href="#help">Help</a></li>
     </ul>

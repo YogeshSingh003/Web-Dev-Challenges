@@ -9,10 +9,35 @@
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-gap: 10px;
+        grid-template-rows: repeat(12, 1fr);
       }
       .item {
         background-color: wheat;
         border: wheat 1px solid;
+      }
+      .column1 {
+        grid-row-start: 1;
+        grid-row-end: 7;
+      }
+      .column2 {
+        grid-row-start: 1;
+        grid-row-end: 4;
+      }
+      .column3 {
+        grid-row-start: 4;
+        grid-row-end: 7;
+      }
+      .column4 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+      }
+      .column5 {
+        grid-row-start: 3;
+        grid-row-end: 5;
+      }
+      .column6 {
+        grid-row-start: 5;
+        grid-row-end: 7;
       }
     </style>
   </head>
@@ -20,32 +45,32 @@
     <div class="container">
       <div class="item column1">1</div>
       <div class="item column2">2</div>
-      <div class="item column2">3</div>
-      <div class="item">4</div>
-      <div class="item">5</div>
-      <div class="item">6</div>
-      <div class="item">7</div>
-      <div class="item">8</div>
-      <div class="item">9</div>
-      <div class="item">10</div>
-      <div class="item">11</div>
-      <div class="item">12</div>
-      <div class="item">13</div>
-      <div class="item">14</div>
-      <div class="item">15</div>
-      <div class="item">16</div>
-      <div class="item">17</div>
-      <div class="item">18</div>
-      <div class="item">19</div>
-      <div class="item">20</div>
-      <div class="item">21</div>
-      <div class="item">22</div>
-      <div class="item">23</div>
-      <div class="item">24</div>
-      <div class="item">25</div>
-      <div class="item">26</div>
-      <div class="item">27</div>
-      <div class="item">28</div>
+      <div class="item column3">3</div>
+      <div class="item column4">4</div>
+      <div class="item column5">5</div>
+      <div class="item column6">6</div>
+      <div class="item column7">7</div>
+      <div class="item column8">8</div>
+      <div class="item column9">9</div>
+      <div class="item column10">10</div>
+      <div class="item column11">11</div>
+      <div class="item column12">12</div>
+      <div class="item column13">13</div>
+      <div class="item column14">14</div>
+      <div class="item column15">15</div>
+      <div class="item column16">16</div>
+      <div class="item column17">17</div>
+      <div class="item column18">18</div>
+      <div class="item column19">19</div>
+      <div class="item column20">20</div>
+      <div class="item column21">21</div>
+      <div class="item column22">22</div>
+      <div class="item column23">23</div>
+      <div class="item column24">24</div>
+      <div class="item column25">25</div>
+      <div class="item column26">26</div>
+      <div class="item column27">27</div>
+      <div class="item column28">28</div>
     </div>
   </body>
 </html>

@@ -7,21 +7,32 @@
     <style>
       .container {
         display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-rows: 120px 520px 120px;
         grid-gap: 10px;
       }
       .item {
         background-color: yellowgreen;
         border: yellowgreen solid 1px;
       }
+      .item-1 {
+        grid-row-start: 1;
+        grid-row-end: 4;
+      }
+      .item-2,
+      .item-5 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+      }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="item">Nav</div>
-      <div class="item">Header</div>
+      <div class="item item-1">Nav</div>
+      <div class="item item-2">Header</div>
       <div class="item">Article</div>
       <div class="item">Ads</div>
-      <div class="item">Footer</div>
+      <div class="item item-5">Footer</div>
     </div>
   </body>
 </html>

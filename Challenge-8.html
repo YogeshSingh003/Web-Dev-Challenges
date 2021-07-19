@@ -8,14 +8,19 @@
       .container {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
+        grid-gap: 10px;
+      }
+      .item {
+        background-color: wheat;
+        border: wheat 1px solid;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="item">1</div>
-      <div class="item">2</div>
-      <div class="item">3</div>
+      <div class="item column1">1</div>
+      <div class="item column2">2</div>
+      <div class="item column2">3</div>
       <div class="item">4</div>
       <div class="item">5</div>
       <div class="item">6</div>

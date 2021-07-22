@@ -6,7 +6,14 @@
     <title>Animation</title>
     <style>
       .container {
-        animation: bouncing 2s eace infinite alternate both;
+        /* animation: bouncing 0.5s easw 0s infinite alternate both; */
+        animation-name: bouncing;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-fill-mode: both;
         border-radius: 50%;
         width: 300px;
         height: 100px;
@@ -18,13 +25,19 @@
         position: relative;
         top: 45%;
         left: 40%;
+        margin-top: 100px;
       }
       @keyframes bouncing {
         0% {
-          bottom: 0;
+          left: 40%;
+          top: 45%;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         }
+
         100% {
-          bottom: 100px;
+          left: 40%;
+          top: 25%;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
         }
       }
     </style>
